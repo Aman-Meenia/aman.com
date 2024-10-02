@@ -1,0 +1,211 @@
+---
+title: How To Deploy Personal Projects On Aws 
+summary: Complete guide on how to deploy on AWS 
+image: /AWS.jpg
+publishedAt: "2024-10-02"
+---
+
+
+
+## How to connect instance on terminal using ssh
+
+```
+- Run this command, if necessary, to ensure your key is not publicly viewable.
+chmod 400 "next-auth.pem"
+
+- To connect
+ ssh -i "Next Auth.pem" ubuntu@3.6.173.14
+ ssh -i "Key Name" ubuntu@Public IPv4 address
+```
+
+
+## Installing Node in the ubuntu
+
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+```
+
+```
+source ~/.bashrc
+```
+
+```
+nvm install node
+```
+
+## How to give access to run the app on ip
+
+### Add new inbound rules in the security -> Security groups (CustomTCP, PortNumber, source)
+
+![EC2 Image](/Ec21.png)
+
+
+
+
+## Installing PM2 Advanced, production process manager for Node.JS (To run node project in background)
+
+```
+npm install pm2 -g
+```
+
+### To start node add using PM2
+
+```
+ pm2 start "npm run start" --name "NextAuth"
+```
+
+```
+# Listing
+
+pm2 list               # Display all processes status
+pm2 jlist              # Print process list in raw JSON
+pm2 prettylist         # Print process list in beautified JSON
+
+pm2 describe 0         # Display all information about a specific process
+
+pm2 monit              # Monitor all processes
+```
+
+```
+$ pm2 restart app_name
+$ pm2 reload app_name
+$ pm2 stop app_name
+$ pm2 delete app_name
+```
+
+
+## Updating packages
+
+```
+sudo apt-get update
+```
+
+## Installing docker 
+
+```
+sudo apt-get install docker.io -y
+```
+
+## **Starting the Docker service**
+
+#### After installing Docker, you will need to start the Docker service:
+
+```
+sudo systemctl start docker
+```
+
+## Check Docker version
+
+```
+docker --version
+```
+
+## **Add User to Docker Group**
+
+#### (Optional) Add your user to the Docker group to run Docker commands without `'sudo'`
+
+```
+sudo usermod -a -G docker $(whoami)
+```
+
+### After executing this command, the user will be added to the `docker` group and will have the necessary permissions to run Docker commands without `sudo`.
+
+
+```
+ newgrp docker
+```
+
+### After following these steps, Docker should be installed and running on your Ubuntu machine.
+
+
+### Start docker 
+
+```
+sudo service docker start
+```
+
+### Check status
+
+```
+sudo service docker status
+```
+### Download compose on EC2 machine:
+
+```
+sudo curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+```
+
+### Next, set the permissions:
+
+```
+sudo chmod +x /usr/local/bin/docker-compose
+```
+
+### Verify the installation:
+
+```
+ docker-compose version
+```
+
+### Build container 
+
+```
+docker build -t next-auth .
+```
+
+## Run Docker Container 
+
+```
+docker run -p 3000:3000 next-auth
+```
+
+## Run Docker in Detach Mode
+
+```
+ docker run -p 3000:3000 -d logiclab
+```
+
+## How to run Compose.yaml
+
+```
+docker-compose up --build
+```
+
+## How to start Compose.yaml
+
+```
+docker-compose up
+```
+
+## How to stop Compose.yaml
+
+```
+docker compose down
+```
+
+### Display running containers
+
+```
+docker ps
+```
+
+### Display all containers
+
+```
+docker ps -a
+```
+
+## Display all the ids of all containers
+
+```
+docker ps -aq
+```
+
+### Delete all container 
+
+```
+docker rm -v -f $(docker ps -qa)
+```
+
+
+

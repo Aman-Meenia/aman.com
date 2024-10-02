@@ -1,0 +1,160 @@
+---
+title: Nginx And SSL
+summary: How to user Nginx as reverse proxy and generate ssl for websites 
+image: /Nginx.jpg
+publishedAt: "2024-10-02"
+---
+
+## Update packages
+
+```
+ sudo apt-get update
+```
+
+## Install nginx
+
+```
+sudo apt-get install nginx
+```
+
+## Check version
+
+```
+ nginx -v
+```
+
+## How to add personal domain
+
+```
+Go to the domain website and add the dns as AWS instace Ip address
+```
+
+## Run nginx
+
+```
+ sudo nginx
+```
+
+```
+ sudo nginx -s reload
+```
+
+## After this nginx running on ip address
+
+## Config Nginx to run the website on domain and works without writing :portNumber
+
+``` 
+Path : /etc/nginx/sites-available/default
+
+server_name aman-meenia.work.gd, www.aman-meenia.work.gd;
+
+ location / {
+               server_name aman-meenia.work.gd, www.aman-meenia.work.gd; # First attempt to serve request as file, then
+                # as directory, then fall back to displaying a 404.
+                 proxy_pass http://localhost:3000;
+                proxy_http_version 1.1;
+                proxy_set_header Upgrade $http_upgrade;
+                proxy_set_header Connection 'upgrade';
+                proxy_set_header Host $host;
+                proxy_cache_bypass $http_upgrade;
+
+        }
+```
+
+## To test config is correct or not
+
+```
+sudo nginx -t
+```
+
+## Reload
+
+```
+sudo nginx -s reload
+```
+
+
+## SSL certificate using certbot
+
+```
+ sudo apt install certbot python3-certbot-nginx
+```
+
+## For what domain you want ssh certificate 
+
+```
+ sudo certbot --nginx -d next-auth.work.gd -d www.next-aut.work.gd
+```
+
+## Renew certificate automatically
+
+```
+sudo certbot renew --dry-run
+```
+
+
+# Anotherw way for free ssl
+
+```
+sudo snap install core; sudo snap refresh core
+```
+
+```
+sudo apt remove certbot
+```
+
+```
+sudo snap install --classic certbot
+```
+
+```
+sudo ln -s /snap/bin/certbot /usr/bin/certbot
+```
+
+
+```
+sudo certbot --nginx -d app.example.com 
+```
+
+
+### Verify Certbot Auto-Renewal
+
+```
+sudo systemctl status snap.certbot.renew.service
+```
+
+### To test the renewal process, you can do a dry run with certbot:
+
+```
+sudo certbot renew --dry-run
+```
+
+
+### Proxy_http_version 1.1;
+
+```
+This specifies the HTTP version that Nginx should use when communicating with the upstream server (your app). HTTP/1.1 supports features like persistent connections and chunked transfer encoding, which are often required for modern web apps.
+```
+
+### proxy_set_header Upgrade $http_upgrade;
+
+```
+This line ensures that the `Upgrade` header from the client is passed along to the upstream server. This is crucial for handling WebSocket connections, which rely on the `Upgrade` header to switch from HTTP to the WebSocket protocol.
+```
+
+### proxy_set_header Connection 'upgrade';
+
+```
+Similar to the `Upgrade` header, this sets the `Connection` header to `'upgrade'`. This header is also essential for WebSocket communication, ensuring that the connection can be upgraded from HTTP to WebSocket.
+```
+
+### proxy_set_header Host $host;
+
+```
+This directive passes the original `Host` header from the client to the upstream server. The `$host` variable dynamically captures the domain name or IP address that the client used to access the server, ensuring that the upstream server receives the correct `Host` header.
+```
+### proxy_cache_bypass $http_upgrade;
+
+```
+This setting tells Nginx to bypass its caching mechanisms if the `Upgrade` header is present in the request. This is necessary for WebSocket connections to function correctly, as caching can interfere with the real-time communication required by WebSockets.
+```

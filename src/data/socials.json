@@ -1,0 +1,24 @@
+{
+  "socials": [
+    {
+      "name": "LinkedIn",
+      "href": "https://www.linkedin.com/in/aman-meenia-b32a00206/",
+      "icon": "linkedin"
+    },
+    {
+      "name": "GitHub",
+      "href": "https://github.com/Aman-Meenia",
+      "icon": "github"
+    },
+    {
+      "name": "Email",
+      "href": "mailto:amanmeenia09876@gmail.com",
+      "icon": "mail"
+    },
+    {
+      "name": "LeetCode",
+      "href": "https://leetcode.com/u/AmanMeenia0001/",
+      "icon": "code"
+    }
+  ]
+}

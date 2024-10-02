@@ -1,0 +1,21 @@
+{
+  "education": [
+    {
+      "name": "Government College of Engineering and Technology Jammu",
+      "href": "https://gcetjammu.org.in/index.php",
+      "title": "Bachelor of Technology in Computer Science",
+      "logo": "/gcet.jpg",
+      "start": "Sep 2020",
+      "end": "July 2024",
+      "description": ["Graduated with CGPA 8.5/10"]
+    },
+    {
+      "name": "Shiksha Niketan Higher Secondary School Jammu",
+      "href": "https://shikshaniketanjk.in/",
+      "title": "Higher Secondary Education",
+      "logo": "/school.jpg",
+      "start": "Apr 2018",
+      "end": "May 2020"
+    }
+  ]
+}

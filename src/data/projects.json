@@ -1,0 +1,118 @@
+{
+  "projects": [
+    {
+      "name": "Coding Platform",
+      "description": "Developed a full-stack platform for solving DSA problems using TypeScript, Next.js, MongoDB, Redis, and Judge0 for real-time code execution",
+      "image": "/logiclab.jpg",
+      "href": "https://logic-lab.work.gd",
+      "tags": [
+        "NextJS",
+        "TypeScript",
+        "NextAuth",
+        "MongoDB",
+        "Shadcn UI",
+        "Redis",
+        "Docker",
+        "AWS",
+        "Nginx",
+        "Judge0",
+        "Zod"
+      ],
+      "links": [
+        {
+          "name": "Source",
+          "href": "https://github.com/Aman-Meenia/logiclab.git",
+          "icon": "github"
+        },
+        {
+          "name": "Website",
+          "href": "https://logic-lab.work.gd",
+          "icon": "globe"
+        },
+        {
+          "name": "Demo",
+          "href": "https://youtu.be/jajtNAR9hoY",
+          "icon": "youtube"
+        }
+      ]
+    },
+    {
+      "name": "ChatSphere",
+      "description": "Developed a full-stack, real-time chat application using NextJS, PostgreSQL, NextAuth, and Prisma.",
+      "image": "/chatsphere.jpg",
+      "tags": [
+        "NextJS",
+        "Shadcn UI",
+        "TypeScript",
+        "WebSocket",
+        "NextAuth",
+        "Prisma",
+        "PostgreSQL"
+      ],
+      "links": [
+        {
+          "name": "Website",
+          "href": "https://aman-meenia.work.gd",
+          "icon": "globe"
+        },
+        {
+          "name": "Source",
+          "href": "https://github.com/Aman-Meenia/chatsphere",
+          "icon": "github"
+        }
+      ]
+    },
+    {
+      "name": "Bookify",
+      "description": " Developed a full-stack web application for an online bookstore, providing users with a seamless browsing and purchasing experience",
+      "image": "/bookstore.jpg",
+      "tags": [
+        "ReactJs",
+        "NodeJs",
+        "ExpressJs",
+        "MongoDB",
+        "JWT",
+        "Razorpay",
+        "DaisyUI"
+      ],
+      "links": [
+        {
+          "name": "Source",
+          "href": "https://github.com/Aman-Meenia/BookStore",
+          "icon": "github"
+        },
+        {
+          "name": "Demo",
+          "href": "https://youtu.be/QczbMU5eWbA",
+          "icon": "youtube"
+        }
+      ]
+    },
+    {
+      "name": "Polling system and trend analysis",
+      "description": "",
+      "image": "/poll-trend.jpg",
+      "tags": [
+        "NextJS",
+        "Shadcn UI",
+        "TypeScript",
+        "PostgreSQL",
+        "Prisma",
+        "Rechart",
+        "Docker"
+      ],
+      "links": [
+        {
+          "name": "Source",
+          "href": "https://github.com/Aman-Meenia/polling-system",
+          "icon": "github"
+        },
+        {
+          "name": "Demo",
+          "href": "https://youtu.be/k8hZVyfyCEg",
+          "icon": "youtube"
+        }
+      ]
+    }
+  ]
+}

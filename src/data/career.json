@@ -1,0 +1,18 @@
+{
+  "career": [
+    {
+      "name": "AviSoft",
+      "href": "https://avisoft.io/",
+      "title": "Full Stack Developer Intern",
+      "logo": "/avisoft.jpg",
+      "start": "Feb 2024",
+      "end": "July 2024",
+      "description": [
+        "Tech Stack: NextJs, AngularJS, DaisyUI, MERN Stack, TypeScript",
+        "Migration Project: Successfully migrated a client website from AngularJS to Next.js, significantly improving performance and SEO rankings.",
+        "UI Design: Leveraged the DaisyUI library for efficient, responsive, and modern UI component design, enhancing the user experience.",
+        "Performance Optimization: Implemented server-side rendering with Next.js to optimize loading speeds and boost overall application performance."
+      ]
+    }
+  ]
+}
