@@ -33,7 +33,7 @@ export default async function Home() {
           <p className="mt-4 font-light">
             {/* Update my age */}
             {new Date().getFullYear() - TED_BIRTH_YEAR}
-            -year-old full software developer from India 🇮🇳
+            -year-old software developer from India 🇮🇳
           </p>
           <p className="mt-2 font-light">
             I like to develop full-stack, solve DSA puzzles on my platform
