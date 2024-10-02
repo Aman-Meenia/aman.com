@@ -51,14 +51,14 @@
       ],
       "links": [
         {
-          "name": "Website",
-          "href": "https://aman-meenia.work.gd",
-          "icon": "globe"
-        },
-        {
           "name": "Source",
           "href": "https://github.com/Aman-Meenia/chatsphere",
           "icon": "github"
+        },
+        {
+          "name": "Website",
+          "href": "https://aman-meenia.work.gd",
+          "icon": "globe"
         }
       ]
     },
