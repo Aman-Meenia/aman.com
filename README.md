@@ -1,36 +1,8 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<img width="1409" alt="Screenshot 2024-10-03 at 4 09 20 PM" src="https://github.com/user-attachments/assets/d6fc95f3-87de-4904-9b2c-2f13d02451c2">
+<img width="1409" alt="Screenshot 2024-10-03 at 4 09 41 PM" src="https://github.com/user-attachments/assets/5b451b8e-6768-4504-bbf4-22d46a086219">
+<img width="1409" alt="Screenshot 2024-10-03 at 4 09 47 PM" src="https://github.com/user-attachments/assets/b920e272-cb3a-4b12-816f-1c5ee078bb75">
+<img width="1409" alt="Screenshot 2024-10-03 at 4 10 07 PM" src="https://github.com/user-attachments/assets/de5c606c-5652-4b5d-b484-1446d8b1a801">
+<img width="1409" alt="Screenshot 2024-10-03 at 4 10 19 PM" src="https://github.com/user-attachments/assets/cec06a08-a229-4c25-9c7a-b39a8c69a842">
+<img width="1409" alt="Screenshot 2024-10-03 at 4 10 30 PM" src="https://github.com/user-attachments/assets/50f7d2c5-451c-445d-bffb-74cea0345875">
+<img width="1409" alt="Screenshot 2024-10-03 at 4 10 45 PM" src="https://github.com/user-attachments/assets/26247aaf-f5bf-4172-8095-232b443c95bb">
