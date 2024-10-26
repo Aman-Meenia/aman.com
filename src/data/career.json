@@ -1,6 +1,19 @@
 {
   "career": [
     {
+      "name": "Sportzzbook",
+      "href": "#",
+      "title": "Sofware Developer Intern",
+      "logo": "/sportzzbook.png",
+      "start": "Oct 2024",
+      "end": "Present",
+      "description": [
+        "Tech Stack: TypeScript, ReactJs, ReactNative, Shadcn UI",
+        "Developed the company's web platform using React.js, ensuring a responsive, high-performance interface that provides an intuitive and seamless user experience",
+        "Collaborating with the team to build the mobile app using React Native, focusing on delivering a seamless mobile experience"
+      ]
+    },
+    {
       "name": "AviSoft",
       "href": "https://avisoft.io/",
       "title": "Full Stack Developer Intern",

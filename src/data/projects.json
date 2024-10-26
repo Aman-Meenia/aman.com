@@ -63,6 +63,25 @@
       ]
     },
     {
+      "name": "Krypto Platform",
+      "description": "Developed the cryptocurrency platform's frontend, building a responsive and user-friendly interface for seamless experiences across desktop and mobile devices",
+      "image": "/krypto.png",
+      "href": "https://krypto-neon.vercel.app/",
+      "tags": ["ReactJs", "TypeScript", "TailwindCSS", "Shadcn UI"],
+      "links": [
+        {
+          "name": "Source",
+          "href": "https://github.com/Aman-Meenia/krypto.git",
+          "icon": "github"
+        },
+        {
+          "name": "Website",
+          "href": "https://krypto-neon.vercel.app/",
+          "icon": "globe"
+        }
+      ]
+    },
+    {
       "name": "Bookify",
       "description": " Developed a full-stack web application for an online bookstore, providing users with a seamless browsing and purchasing experience",
       "image": "/bookstore.jpg",
