@@ -65,7 +65,7 @@
     {
       "name": "Krypto Platform",
       "description": "Developed the cryptocurrency platform's frontend, building a responsive and user-friendly interface for seamless experiences across desktop and mobile devices",
-      "image": "/krypto.png",
+      "image": "/KryptoProject.jpg",
       "href": "https://krypto-neon.vercel.app/",
       "tags": ["ReactJs", "TypeScript", "TailwindCSS", "Shadcn UI"],
       "links": [
