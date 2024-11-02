@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Providers from "@/components/Providers";
@@ -40,6 +41,7 @@ export default function RootLayout({
           <main className="grow">{children}</main>
           <Footer />
         </Providers>
+        <Analytics />
       </body>
     </html>
   );
