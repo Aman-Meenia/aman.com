@@ -11,6 +11,7 @@
         "NextAuth",
         "MongoDB",
         "Shadcn UI",
+        "NodeJS",
         "Redis",
         "Docker",
         "AWS",
@@ -46,6 +47,7 @@
         "TypeScript",
         "WebSocket",
         "NextAuth",
+        "NodeJS",
         "Prisma",
         "PostgreSQL"
       ],
@@ -57,7 +59,7 @@
         },
         {
           "name": "Website",
-          "href": "https://aman-meenia.work.gd",
+          "href": "https://chatsphere-com-g2se.vercel.app",
           "icon": "globe"
         }
       ]

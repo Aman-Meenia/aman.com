@@ -8,7 +8,7 @@
       "start": "Oct 2024",
       "end": "Present",
       "description": [
-        "Tech Stack: TypeScript, ReactJs, ReactNative, Shadcn UI",
+        "Tech Stack: TypeScript, ReactJs, ReactNative, NodeJs, ShadcnUI",
         "Developed the company's web platform using React.js, ensuring a responsive, high-performance interface that provides an intuitive and seamless user experience",
         "Collaborating with the team to build the mobile app using React Native, focusing on delivering a seamless mobile experience"
       ]
@@ -21,7 +21,7 @@
       "start": "Feb 2024",
       "end": "July 2024",
       "description": [
-        "Tech Stack: NextJs, AngularJS, DaisyUI, MERN Stack, TypeScript",
+        "Tech Stack: TypeScript, ReactJs, NextJs, MongoDB, NodeJs, ExpressJs, DaisyUI,",
         "Migration Project: Successfully migrated a client website from AngularJS to Next.js, significantly improving performance and SEO rankings.",
         "UI Design: Leveraged the DaisyUI library for efficient, responsive, and modern UI component design, enhancing the user experience.",
         "Performance Optimization: Implemented server-side rendering with Next.js to optimize loading speeds and boost overall application performance."
