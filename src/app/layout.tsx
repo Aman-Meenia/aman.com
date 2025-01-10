@@ -18,8 +18,11 @@ export const metadata: Metadata = {
   title: "Aman Meenia",
   description: "My personal site to showcase my developer work and opinions.",
   icons: {
-    icon: "/aman-meenia.jpg",
+    icon: ["/favicon.ico?v=4"],
+    apple: ["/apple-touch-icon.png?v=4"], // Optional: for the browser tab icon
+    shortcut: "/apple-touch-icon.png",
   },
+  manifest: "/site.webmanifest",
 };
 
 export default function RootLayout({
