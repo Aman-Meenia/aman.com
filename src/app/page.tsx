@@ -13,6 +13,7 @@ import path from "path";
 const blogDirectory = path.join(process.cwd(), "content");
 const AMAN_BIRTH_YEAR = 2002;
 const LIMIT = 2; // max show 2
+const AMAN_AGE = 22;
 
 export default async function Home() {
   const posts = await getPosts(blogDirectory, 5);
@@ -31,8 +32,7 @@ export default async function Home() {
         <div className="flex flex-col">
           <h1 className="title text-5xl">hi aman here 👋</h1>
           <p className="mt-4 font-light">
-            {/* Update my age */}
-            {new Date().getFullYear() - AMAN_BIRTH_YEAR}
+            {AMAN_AGE}
             -year-old software developer from India 🇮🇳
           </p>
           <p className="mt-2 font-light">
