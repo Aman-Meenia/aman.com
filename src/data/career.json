@@ -1,12 +1,28 @@
 {
   "career": [
     {
+      "name": "VJV IT Solutions",
+      "href": "https://vjvtech.com/",
+      "title": "Sofware Developer",
+      "logo": "/vjvitsolutions.png",
+      "start": "Jan 2024",
+      "end": "Present",
+      "description": [
+        "Tech Stack: ReactJs, TypeScript, NodeJs, ExpressJs, MongoDB, Redis, AWS, Nginx, ShadcnUI",
+        "Developing the frontend of an event management platform that enables users to complete their profiles and receive matches based on shared interests.",
+        "Implemented a dynamic matchmaking system, allowing users to connect with five other attendees for 15-minute interactions during offline events.",
+        "Designed and optimized the event registration flow, ensuring a seamless user experience for signing up and participating in networking sessions.",
+        "Developing the backend of the SPHA (Surgery and Post Hospital Assistance) website using Node.js, Express.js, and MongoDB, enhancing user registration and search functionality for hospitals, doctors, and clinics.",
+        "Optimizing the platform to ensure seamless 24/7 access to tailored healthcare resources, aiding senior citizens in post-surgery recovery and hospital assistance."
+      ]
+    },
+    {
       "name": "Sportzzbook",
       "href": "https://www.sportzzbook.com",
       "title": "Sofware Developer Intern",
       "logo": "/sportzzbook.png",
       "start": "Oct 2024",
-      "end": "Present",
+      "end": "Jan 2025",
       "description": [
         "Tech Stack: TypeScript, ReactJs, ReactNative, NodeJs, ShadcnUI",
         "Developed the company's web platform using React.js, ensuring a responsive, high-performance interface that provides an intuitive and seamless user experience",
