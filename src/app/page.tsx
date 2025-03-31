@@ -38,7 +38,7 @@ export default async function Home() {
           <p className="mt-2 font-light">
             I like to develop full-stack, solve DSA puzzles on my platform
             <Link
-              href="https://logic-lab.work.gd"
+              href="https://logiclab.amanmeenia.com"
               className="text-blue-600 hover:text-blue-800"
             >
               {" "}
